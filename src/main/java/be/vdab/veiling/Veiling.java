@@ -1,7 +1,7 @@
 package be.vdab.veiling;
 
 public class Veiling {
-	private int hoogste = 0;
+	private int hoogste;
 	
 	public void doeBod(int bedrag) {
 		if(bedrag > this.hoogste) {
